@@ -30,7 +30,7 @@ function render(){
  $('warnings').innerHTML=active.warnings.map(w=>`<p class="warning">${w}</p>`).join('');
  $('branch').textContent=active.branch; $('extra-copy').textContent=active.extra; $('extra').open=false;
  $('sources').innerHTML=active.sources.map(([name,url])=>`<a href="${url}" target="_blank" rel="noopener noreferrer">${name} ↗</a>`).join('');
- $('reset').textContent='이 엔딩 체크 초기화'; document.title=`${active.name} · 통합 전략`;
+ $('reset').textContent='이 엔딩 체크 초기화'; document.title=`${active.name} · Arknights INFO`;
  updateStorageNote(); progress();
 }
 $('themes').addEventListener('click',event=>{const b=event.target.closest('[data-theme]');if(!b)return;theme=themes.find(t=>t.id===b.dataset.theme);active=theme.routes[0];navigate();document.querySelector(`#themes [data-theme="${theme.id}"]`).focus();});
