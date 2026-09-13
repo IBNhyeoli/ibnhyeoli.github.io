@@ -2,8 +2,8 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>계원 길잡이 · 쉐이 록라 엔딩 가이드</title>
-  <meta name="description" content="명일방주 쉐이의 기이한 계원 엔딩별 해금 조건, 필수 소장품과 진행 체크리스트.">
+  <title>계원 길잡이 · 통합전략 엔딩 가이드</title>
+  <meta name="description" content="명일방주 쉐이·살카즈·사미·미즈키·팬텀 통합전략 엔딩별 해금 조건, 필수 소장품과 진행 체크리스트.">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23152021'/%3E%3Cpath d='M8 24V8h16v16M8 16h16M16 8v16' stroke='%23b7e6ce' fill='none' stroke-width='2'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="./style.css"><script defer src="./data.js"></script><script defer src="./app.js"></script>
 </head>
@@ -11,7 +11,8 @@
   <a class="skip" href="#route">진행 순서로 이동</a>
   <header><a class="brand" href="./"><span class="seal" aria-hidden="true">界</span><span>계원 길잡이<small>ARKNIGHTS · INTEGRATED STRATEGIES</small></span></a><span class="server">한국 서버 · 한국어</span></header>
   <main>
-    <div class="intro"><div><p class="eyebrow">통합전략 06 / ENDING ROUTES</p><h1>쉐이의 기이한 계원</h1><p class="subtitle">목표 결말을 고르고, 필요한 길만 따라가세요.</p></div><span class="edition">엔딩 진입 가이드<br><b>01 — 05</b></span></div>
+    <p class="eyebrow">테마 선택 · 최신순</p><nav id="themes" aria-label="통합전략 테마"></nav>
+    <div class="intro"><div><p id="theme-meta" class="eyebrow">통합전략 06 / ENDING ROUTES</p><h1 id="theme-title">쉐이의 기이한 계원</h1><p class="subtitle">목표 결말을 고르고, 필요한 길만 따라가세요.</p></div><span class="edition">엔딩 진입 가이드<br><b id="ending-count">01 — 05</b></span></div>
     <nav id="endings" aria-label="목표 엔딩"></nav>
     <div class="workspace"><section id="route" tabindex="-1" aria-labelledby="route-title">
       <div class="route-heading"><div><p id="route-meta" class="eyebrow"></p><h2 id="route-title"></h2></div><span id="boss" class="boss"></span></div>
@@ -24,7 +25,7 @@
       <section class="note-panel"><p class="eyebrow">BEFORE YOU GO</p><h3>놓치기 쉬운 조건</h3><div id="warnings"></div></section>
       <section class="branch-panel"><h3>다른 엔딩과의 분기</h3><p id="branch"></p></section>
       <details id="extra"><summary>강화·추가 조건</summary><p id="extra-copy"></p></details>
-      <section class="source-panel"><h3>정보 출처</h3><div id="sources"></div><p>한국어 명칭은 한국어 공략 문서, 진행 조건은 커뮤니티 위키를 교차 참고했습니다. 게임 내 직접 검증 전 초안입니다.</p><p>확인일 2026.09.13 · 확장판 Ⅱ 포함<br>한국 서버 적용 시점은 추가 확인이 필요합니다.</p></section>
+      <section class="source-panel"><h3>정보 출처</h3><div id="sources"></div><p>한국어 명칭은 한국어 공략 문서, 진행 조건은 커뮤니티 위키를 교차 참고했습니다. 게임 내 직접 검증 전 초안입니다.</p><p>확인일 2026.09.14 · 확장판 Ⅱ 포함<br>신규 테마의 일부 이벤트·소장품은 영문명을 함께 표기합니다.</p></section>
     </aside></div>
     <footer><span>비공식 명일방주 팬 가이드</span><span>엔딩 이야기 대신, 도달 조건을 정리합니다.</span></footer>
   </main><noscript>엔딩을 선택하고 체크리스트를 사용하려면 JavaScript를 켜 주세요.</noscript>
